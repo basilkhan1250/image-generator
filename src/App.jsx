@@ -53,6 +53,7 @@ function App() {
 
   return (
     <>
+      <h1>Infinite Image Scroller</h1>
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="masonry-grid"
