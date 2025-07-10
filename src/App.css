@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.masonry-grid {
+  display: flex;
+  padding-top: 20px;
+  width: 1300px;
+  /* border: 10px solid red; */
+  margin: 0 auto;
+}
+
+.masonry-column {
+  padding: 6px;
+  background-clip: padding-box;
+}
+
+.gallery-img {
+  width: 100%;
+  display: block;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  object-fit: cover;
+}
