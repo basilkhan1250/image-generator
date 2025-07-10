@@ -69,7 +69,6 @@ function App() {
           />
         ))}
       </Masonry>
-        <button>Up</button>
     </>
   );
 }
